@@ -14,7 +14,7 @@ morgan.token('person', function (req) { return JSON.stringify(req.body) })
 
 const mongoose = require('mongoose')
 
-const url = 'mongodb://PerttiKeinonen:TuomionPaiva1995@ds259410.mlab.com:59410/persons'
+const url = 'mongodb://**********:***********@ds259410.mlab.com:59410/persons'
 
 mongoose.connect(url)
 
